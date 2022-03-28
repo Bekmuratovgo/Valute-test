@@ -1,0 +1,25 @@
+.MuiTableHead-root {
+    background-color: #8686df !important;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.miniModal{
+    position: absolute;
+    right: 200px;
+    width: 200px;
+    display: none;
+    height: 40px;
+    background: #8686df;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+.hoverItem:hover{
+    transition: 1s;
+}
+.hoverItem:hover .miniModal{
+    display: block;
+}
